@@ -6,7 +6,7 @@ export class EventBus {
 
   _events: Array<EventSubscribe> = [];
 
-  constructor(namespace: string = null, events: Array<EventSubscribe> = []) {
+  constructor(namespace: string | null = null, events: Array<EventSubscribe> = []) {
     this._namespace = namespace;
     this._events = events;
   }
