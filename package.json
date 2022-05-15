@@ -1,10 +1,14 @@
 {
   "name": "subscribe-event-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple event bus with namespaces",
   "private": false,
   "main": "src/main.ts",
   "keywords": ["event", "event bus", "events with namespaces", "ts"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karpov-dev/EventBus-TS"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "prepublishOnly": "npm run build"
