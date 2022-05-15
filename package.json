@@ -1,6 +1,6 @@
 {
   "name": "subscribe-event-bus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple event bus with namespaces",
   "private": false,
   "main": "src/main.ts",
