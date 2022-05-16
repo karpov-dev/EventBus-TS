@@ -1,6 +1,6 @@
 {
   "name": "subscribe-event-bus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple event bus with namespaces",
   "private": false,
   "main": "src/main.ts",
@@ -10,8 +10,7 @@
     "url": "https://github.com/karpov-dev/EventBus-TS"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "npm run build"
+    "build": "tsc -p tsconfig.build.json"
   },
   "author": "Uladzimir Karpau",
   "license": "ISC",
